@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>spadeworks</title>
+	<title>Spadeworks</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -17,14 +17,19 @@
 
  	<!-- CSS
    ================================================== -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
    <link rel="stylesheet" href="css/base.css">  
    <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+   <link rel="stylesheet" href="css/vendor.css">  
+   
 
    <!-- script
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
    <!-- favicons
 	================================================== -->
@@ -32,7 +37,7 @@
 
 </head>
 
-<body id="top">
+<body id="top" class="body-container">
 
 	<!-- header 
    ================================================== -->
@@ -50,7 +55,9 @@
 					<ul class="main-navigation">
 <!-- 						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li> -->
 						<li><a class="smoothscroll"  href="#about-sw" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#sw-services" title="">Services</a></li>
+						<li><a class="smoothscroll"  href="#sw-sourcing" title="">Apparel Sourcing</a></li>
+						<li><a class="smoothscroll"  href="#sw-ppe" title="">PPE</a></li>
+						<li><a class="smoothscroll"  href="#sw-trading" title="">Trading</a></li>
  						<li><a class="smoothscroll"  href="#sw-portfolio-instagram" title="">Portfolio</a></li>
  						<li><a href="#sw-clients" title="">Clients</a></li>						
 						<li><a class="smoothscroll"  href="#contact-sw" title="">Contact</a></li>	
@@ -75,17 +82,17 @@
 
 	   			<!-- <h5>Hello, World.</h5>
 	   			<h1>I'm Juan Dela Cruz.</h1> -->
-	   			<img src="images/sw-logo2.png" height="150" width="150">
+	   			<img src="images/sw-logo2.png" class="image-logo">
 	   			<br><br>
 	   			<p class="intro-position">
-	   				<span><a class="sw-fea stroke smoothscroll" href="#sw-sourcing" title="">Sourcing</a></span>
+	   				<span><a class="sw-fea stroke smoothscroll header-text" href="#sw-sourcing" title="">Apparel Sourcing</a></span>
 	   				<!-- <span><a class="sw-fea stroke smoothscroll" href="#sw-design" title="">Design</a></span> -->
-	   				<span><a class="sw-fea stroke smoothscroll" href="#sw-fabric" title="">Fabric</a></span> 
-	   				<span><a class="sw-fea stroke smoothscroll" href="#sw-qc" title="">Quality Control</a></span>	   				
-	   				<span><a class="sw-fea stroke smoothscroll" href="#sw-wash" title="">Wet & Dry Processes</a></span>
+	   				
+	   				<span><a class="sw-fea stroke smoothscroll header-text" href="#sw-ppe" title="">personal protective equipment(ppe)</a></span> 
+	   				<span><a class="sw-fea stroke smoothscroll header-text" href="#sw-trading" title="">trading</a></span>	   				
 	   			</p>
 
-	   			<a class="button stroke smoothscroll" href="#about-sw" title="">About SpadeWorks</a>
+	   			<a class="button stroke smoothscroll" href="#about-sw header-text" title="">About SpadeWorks</a>
 
 	   		</div>  
    			
@@ -107,7 +114,7 @@
    	<div class="row section-intro">
    		<div class="col-twelve">
 
-   			<h5>About</h5>
+   			<h4 class="title-text">About</h4>
    			<!-- <h1>This is Spadeworks</h1> -->
 
    			<div class="intro-info">
@@ -123,7 +130,7 @@
    			</div>   			
    			<div class="col-twelve">
 	   			<a href="#contact-sw" title="Contact US" class="button stroke smoothscroll">Contact Us</a>
-	   			<a href="#sw-services" title="Services" class="button stroke smoothscroll">Services</a>
+	   			<a href="#sw-sourcing" title="Services" class="button stroke smoothscroll">Apparel Sourcing</a>
 	   		</div>
    		</div>   		
    	</div> <!-- /section-intro -->
@@ -137,22 +144,11 @@
 
 		<div class="row section-intro">
 	   		<div class="col-twelve">
-
-	   			<h5>Services</h5>
-	   			<!-- <h1>What Can I Do For You?</h1> -->
-
-	   			<!-- <p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p> -->
-
+	   			<h4 class="title-text">Apparel Sourcing</h4>
 	   		</div>   		
 	   	</div> <!-- /section-intro--> 
 
    	<div class="row resume-timeline">
-
-   		<!-- <div class="col-twelve resume-header">
-
-   			<h2>Work Experience</h2>
-
-   		</div> --> <!-- /resume-header -->
 
    		<div class="col-twelve">
 
@@ -171,7 +167,7 @@
 
 	   				<div class="timeline-content">
 	   					<!-- <h4>Key component of Spadeworks</h4> -->
-	   					<p class="desc">Spadeworks specialises in sourcing from India and Sri Lanka. All of its manufacturing units in the supply chain are compliant to International standards like SA 8000, WRAP, SEDEX to name a few.<br>Product portfolio of Spadeworks comprises of- 
+	   					<p class="desc">Spadeworks specialises in sourcing from India and Sri Lanka. All of its manufacturing units in the supply chain are compliant to International standards like SA 8000, WRAP, SEDEX to name a few.<br>Product portfolio of Spadeworks comprises of-
 							<ol>
 								<li>Women’s- Dresses, shirts, tops, bottoms and jackets.</li>
 								<li>Men’s- Shirts, bottoms, jackets.</li>
@@ -227,7 +223,7 @@
 
 	   				<div class="timeline-content">
 	   					<!-- <h4>Quality control for clients</h4> -->
-	   					<p class="desc">Spadeworks manages all of the quality process for its clients. All of Spadeworks' quality controllers have a strong manufacturing background. There are quality controllers designated for specific areas such as <br>
+	   					<p class="desc">Spadeworks manages all of the quality process for its clients. All of Spadeworks' quality controllers have a strong manufacturing background. There are quality controllers designated for specific areas such as<br>
 						<ol>
 							<li>Sampling and fits</li>
 							<li>In line checks</li>
@@ -263,7 +259,32 @@
 	   					</p><hr>
 	   				</div>
 
-	   			</div> <!-- /timeline-block -->	   
+				   </div> <!-- /timeline-block -->	   
+				   <div id="sw-wash" class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Wet and Dry Processes</h3>
+						<!-- <p>May 2013 - June 2014</p> -->
+					</div>
+
+					<div class="timeline-content">
+						<!-- <h4>Quality wed/dry process for clients</h4> -->
+						<p class="desc">Our products cover the entire spectrum of wet and dry processing. Like-<br>
+							<ol>
+								<li>Softener, stone, enzyme and rubber ball washes</li>
+								<li>Pigment and reactive garment dyeing</li>
+								<li>Bleach and distress washes</li>
+								<li>PP spray</li>
+								<li>Dip dye</li>
+							</ol>
+						</p><hr>
+					</div>
+
+				</div> <!-- /timeline-block -->	   
 	            <div id="sw-portfolio-instagram" class="timeline-block">
 
 	   				<div class="timeline-ico">
@@ -311,62 +332,14 @@
 	</section> <!-- /features -->
 
 
-	<!-- sw-portfolio Section
-   ================================================== -->
-	<!-- <section id="sw-portfolio">
-
-		<div class="row section-intro">
-	   		<div class="col-twelve">
-	   			<h5>Portfolio</h5>
-	   		</div>   		
-	   	</div> --> <!-- /section-intro--> 
-
-   	<!-- <div class="row portfolio-content">
-
-   		<div class="col-twelve">
-
-	        	<table width="400" height="150">
-	        		<tr>
-	        			<td><img src="images/portfolio/a-1.jpg" alt="" /></td>
-	        			<td><img src="images/portfolio/a-2.jpg" alt="" /></td>
-	        		</tr>
-	        		<tr>
-	        			<td><img src="images/portfolio/a-3.jpg" alt="" /></td>
-	        			<td><img src="images/portfolio/a-4.jpg" alt="" /></td>
-	        		</tr>
-	        		<tr>
-	        			<td><img src="images/portfolio/a-5.jpg" alt="" /></td>
-	        			<td><img src="images/portfolio/a-6.jpg" alt="" /></td>
-	        		</tr>
-	        		<tr>
-	        			<td><img src="images/portfolio/a-7.jpg" alt="" /></td>
-	        			<td><img src="images/portfolio/a-8.jpg" alt="" /></td>
-	        		</tr>
-	        		<tr>
-	        			<td><img src="images/portfolio/a-9.jpg" alt="" /></td>
-	        			<td><img src="images/portfolio/a-10.jpg" alt="" /></td>
-	        		</tr>
-	        	</table>
-
-
-	           
-	         
-   		</div> -->  <!-- /twelve -->   
-
-   	<!-- </div> --> <!-- /portfolio-content --> 
-		
-	<!-- </section> --> <!-- /sw-portfolio --> 
-
-
-
    <!-- SW-Clients Section
    ================================================== -->
 	<!-- <section id="sw-clients" class="grey-section"> -->
-	<section id="sw-clients" class="">
+	<section id="sw-clients">
 
-		<div class="row section-intro">
+		<div class="row section-intro" >
 	   		<div class="col-twelve">
-	   			<br/><br/><h5>Clients</h5>
+	   			<h4 class="title-text">Clients</h4>
 	   		</div> 
 	   	</div> <!-- /section-intro -->
 
@@ -442,11 +415,162 @@
    		
    	</div> <!-- /services-content -->
 		
-	</section> <!-- /sw-clients -->	
+	</section> <!-- /sw-ppe -->	
+	<section id="sw-ppe" style="background-color: #ebebeb">
+
+		<div class="row section-intro">
+	   		<div class="col-twelve">
+	   			<br><br><h4 class="title-text">personal protective equipment</h4>
+	   		</div> 
+	   	</div> <!-- /section-intro -->
+	   	<div id="carouselExampleIndicators" class="carousel slide center slide-container" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+		  </ol>
+		  <div class="carousel-inner center">
+		    <div class="carousel-item active slide-show">
+		    	<p>
+		    		The document and the information contained herein are
+					proprietary to Spadeworks. This document,either in whole or
+					part, may not be reproduced in any form or by any means
+					without Spadeworks’ prior written permission.This document
+					provides no warranties with respect to the offerings described
+					within. Any third-party names ,trademarks and copyrights
+					contained in this document are the property of their
+
+					respective owners.
+		    	</p>
+		    </div>
+		    <div class="carousel-item slide-show">
+			   	<h5>about</h5>
+		    	<p>
+		    		14 years in sourcing and supply-chain management
+					Specialists in sourcing, manufacturing and quality control
+					Ethical sourcing through strict due diligence
+					Adherence to International compliance practices
+		    	</p>
+		    </div>
+		    <div class="carousel-item slide-show">
+		    	<h5>ppe sourcing today</h5>
+		    	<p>
+		    		Supply chain disruption and over dependence
+					Stock piling and profiteering by private buyers and investors
+					Fraudulent players exploiting the situation for illegitimate gain
+					First responders and Govts. unable to locate credible supplies
+		    	</p>
+		    </div>
+		    <div class="carousel-item slide-show">
+		    	<h5>THE NEW PPE SOURCING</h5>
+		    	<p>
+		    		Identify REAL companies and experienced sourcing teams
+					Secure capacity ahead of competition
+					Timing is crucial- act fast and secure stocks to save lives
+					Activate alternate sources of supply
+					Focus on supplier risk
+					Go beyond ghost sellers and non-existent stock
+		    	</p>
+		    </div>
+		    <div class="carousel-item slide-show">
+		    	<h5>WHY SPADEWORKS</h5>
+		    	<p>
+		    		14 years of sourcing and supply chain management
+					Extensive experience in sourcing for global corporations
+					Highly transparent, ethical and compliant process
+					Focus on execution, commitment and process flow
+					In-house due diligence of seller and buyer
+					Teams on the ground for production,coordination and quality control
+		    	</p>
+		    </div>
+		    <div class="carousel-item slide-show">
+		    	<h5>SPADEWORKS PPE SOURCING STRUCTURE</h5>
+		    	<p>
+		    		India- Supply chain analysis, compliance checks, risk assessment
+					Sweden- Product management, customer analysis, documentation
+					USA- Due diligence, legal, sourcing of N95 respirators
+					Vietnam- Production office for Nitrile and PPE suits
+					Singapore-trading and liaison
+		    	</p>
+		    </div>
+		    <div class="carousel-item slide-show">
+		    	<h5>SPADEWORKS PPE SUPPLY STRUCTURE</h5>
+		    	<p>
+		    		Nitriles- Vietnam (production team on the ground )
+					PPE suits- Vietnam and India (production team on the ground )
+					N95 respirators- USA, Europe
+		    	</p>
+		    </div>
+		    <div class="carousel-item slide-show">
+		    	<h5>SPADEWORKS PROCESS FLOW</h5>
+		    	<p>
+		    		NC/NDA between transacting parties
+					LOI and LOA to be issued by customer
+					Customer due diligence by Spadeworks and supplier
+					POF to be issued by customer
+					Signing of agreements
+					Inspection
+					Delivery
+					Payment
+		    	</p>
+		    </div>
+		    <div class="carousel-item slide-show">
+		    	<h5>WHERE NEXT ?</h5>
+		    	<p>
+		    		Covid has placed firms at a critical juncture: change or be changed
+					Spadeworks can be a critical partner by ensuring business
+					continuity by protecting your employees, clients and communities.
+
+					Business leaders have an unprecedented opportunity to build a
+					resilient PPE supply chain to manage through the pandemic
+					by executing a next generation sourcing strategy.
+		    	</p>
+		    </div>
+		    <div class="carousel-item slide-show">
+		    	<h5>CONTACT</h5>
+		    	<p style="text-align: center;">Rajeev Krishnan</p>
+		    	<p style="text-align: center;">Managing Director</p>
+		    	<p style="text-align: center;">Spadeworks Sourcing</p>
+				<p style="text-align: center;">e-mail- rrk@spadeworks.net</p>	
+				<p style="text-align: center;"><a href="http://www.spadeworks.net/">http://www.spadeworks.net/</a></p>
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+
+   	
+	</section> <!-- /sw-ppe -->
+
+	<section id="sw-trading" style="background-color: white"> <!-- /sw-trading -->
+		<div class="row section-intro">
+	   		<div class="col-twelve">
+	   			<br><br><h4 class="title-text">Trading</h4>
+	   		</div> 
+	   	</div> <!-- /section-intro -->
+	   	<div class="center" style="height: 350px">
+	   		<h4 class="text-view" style="margin-top: -80px">Coming Soon</h4>
+	   	</div>
+	</section>
+
 
    <!-- contact-sw
    ================================================== -->
-	<section id="contact-sw">
+	<section id="contact-sw" style="padding-top: 2rem">
 
 		<div class="row section-intro">
 	   		<div class="col-twelve">
@@ -462,13 +586,19 @@
    				<i class="icon-pin"></i>
    			</div>
 
-   			<h5>Post</h5>
+   			<h5>India</h5>
 
    			<p>Plot No.5, Iskcon Avenue, Akkarai East Coast Road (ECR),<br> Chennai, Tamil Nadu,<br> India - 600119.</p>
 
+   			<!-- <h5>Phone</h5>
+
+   			<p>(+91) 44 2453 2811<br>
+   			   (+91) 44 4551 1616<br>
+			</p>
+ -->
    		</div>
 
-   		<div class="col-four tab-full collapse">
+   		<div class="col-four email-view">
 
    			<div class="icon">
    				<i class="icon-mail"></i>
@@ -476,20 +606,25 @@
 
    			<h5>Email</h5>
 
-   			<p>rrk @ spadeworks.net</p>
+   			<p>rrk@spadeworks.net</p>
 			<a href="http://www.instagram.com/spadeworkssourcing" target="_blank"><img src="images/instagram-icon.jpg" height="40" width="40"></a>
    		</div>
 
    		<div class="col-four tab-full">
 
    			<div class="icon">
-   				<i class="icon-phone"></i>
+   				<i class="icon-pin"></i>
    			</div>
 
-   			<h5>Phone</h5>
+   			<h5>Singapore</h5>
 
-   			<p>(+91) 44 2453 2811<br>
-   			   (+91) 44 4551 1616<br>
+   			<p>160 Robinson Road #24-09 <br>
+   			Spore Business Federation CTR
+   			Singapore(068914)</p>
+
+   			<!-- <h5>Phone</h5>
+
+   			<p>(+91) 44 2453 2811<br> -->
 			</p>
 
    		</div>
@@ -519,7 +654,7 @@
 	      	<div class="copyright">
 		        	<!-- <span>© Copyright Kards 2016.</span> -->
 		        	<span>©spadeworks</span>
-		        	<span>Design by <a href="http://playfiks.com">Playfiks Softwares Pvt Ltd</a></span>
+		        	<span>Design by <a href="https://playfiks.com">Playfiks Softwares Pvt Ltd</a></span>
 		         </div>		                  
 	      	</div>
 
