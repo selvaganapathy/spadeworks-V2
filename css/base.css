@@ -487,6 +487,59 @@ textarea {
  * small screens - (_grid.scss)
  * --------------------------------------------------------------- 
  */
+ .email-view{
+	margin-top: 5rem;
+}
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.text-view{
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 400px;
+}
+.slide-container{
+	height: 100vh;
+	margin-top: -100px;
+}
+.slide-show{
+	width: 50%;
+}
+
+.slide-show p{
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	font-weight: 500;
+	color: black;
+	margin: 0px;
+}
+.slide-show h5{
+	color: #4db8ff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.55em;
+}
+.carousel-indicators li {
+	background-color: black
+}
+.title-text{
+	font-size: 1.3em;
+	letter-spacing: 1px;
+	font-weight: 500;
+	color: red;
+	text-transform: uppercase;
+}
+.carousel-indicators .active {
+    background-color: red;
+}
+.image-logo{
+	width: 25%;
+	height: auto;
+}
 @media screen and (max-width:1024px) {
 	.row .row {
 		margin-left: -18px;
@@ -583,7 +636,32 @@ textarea {
 	}
 
 }
+@media screen and (max-width:550px) {
+	.email-view{
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}
+	.slide-containe{
+		height: 500px;
+		margin-top: -80px;
+	}
+	.slide-show{
+		width: 90%;
+	}
+	.slide-show h5{
+		font-size: 1.1em;
+	}
+	.slide-show p{
+		font-size: 1em;
+	}
+	.title-text{
+		font-size: 1.1em;
+	}
+	.image-logo{
+		width: 80%;
+	}
 
+}
 /**
  * small mobile devices - (_grid.scss)
  * --------------------------------------------------------------- 
@@ -867,84 +945,7 @@ textarea {
 	margin-right: auto;
 	text-align: center;
 }
-.email-view{
-	margin-top: 5rem;
-}
-.center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.text-view{
-	text-align: center;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-size: 17px;
-	font-weight: 400;
-}
-.slide-container{
-	height: 500px;
-	margin-top: -100px;
-}
-.slide-show{
-	width: 50%;
-}
 
-.slide-show p{
-	letter-spacing: 1px;
-	font-size: 1.2em;
-	font-weight: 500;
-	color: black;
-	margin: 0px;
-}
-.slide-show h5{
-	color: #4db8ff;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 1.3em;
-}
-.carousel-indicators li {
-	background-color: black
-}
-.title-text{
-	font-size: 1.3em;
-	letter-spacing: 1px;
-	font-weight: 500;
-	color: red;
-	text-transform: uppercase;
-}
-.carousel-indicators .active {
-    background-color: red;
-}
-.image-logo{
-	width: 25%;
-	height: auto;
-}
-@media screen and (max-width:550px) {
-	.email-view{
-		margin-top: 5rem;
-		margin-bottom: 5rem;
-	}
-	.slide-containe{
-		height: 500px;
-		margin-top: -80px;
-	}
-	.slide-show{
-		width: 90%;
-	}
-	.slide-show h5{
-		font-size: 1.1em;
-	}
-	.slide-show p{
-		font-size: 1em;
-	}
-	.title-text{
-		font-size: 1.1em;
-	}
-	.image-logo{
-		width: 80%;
-	}
 
-}
 
 /*# sourceMappingURL=base.css.map */
