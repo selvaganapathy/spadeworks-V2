@@ -487,6 +487,12 @@ textarea {
  * small screens - (_grid.scss)
  * --------------------------------------------------------------- 
  */
+ .carousel-inner{
+ 	height: 65vh;
+ }
+ .carousel-item{
+ 	height: 60vh;
+ }
  .email-view{
 	margin-top: 5rem;
 }
@@ -494,6 +500,10 @@ textarea {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.image-ppf{
+	margin-top: -30px;
+	margin-bottom: 15px;
 }
 .text-view{
 	text-align: center;
