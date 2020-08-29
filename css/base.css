@@ -550,6 +550,10 @@ textarea {
 	width: 25%;
 	height: auto;
 }
+.image-logo-ppf{
+	width: 15%;
+	height: auto;
+}
 @media screen and (max-width:1024px) {
 	.row .row {
 		margin-left: -18px;
