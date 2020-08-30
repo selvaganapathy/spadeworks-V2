@@ -513,11 +513,12 @@ textarea {
 	font-weight: 400px;
 }
 .slide-container{
-	height: 100vh;
-	margin-top: -100px;
+	height: 60vh;
+	margin-top: -10px;
 }
 .slide-show{
 	width: 50%;
+	padding-bottom: 0px;
 }
 
 .slide-show p{
@@ -526,6 +527,9 @@ textarea {
 	font-weight: 500;
 	color: black;
 	margin: 0px;
+}
+.carousel-indicators {
+	bottom: 60px;
 }
 .slide-show h5{
 	color: #4db8ff;
@@ -551,7 +555,7 @@ textarea {
 	height: auto;
 }
 .image-logo-ppf{
-	width: 15%;
+	width: 100%;
 	height: auto;
 }
 @media screen and (max-width:1024px) {
