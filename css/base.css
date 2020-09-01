@@ -527,6 +527,7 @@ textarea {
 	font-weight: 500;
 	color: black;
 	margin: 0px;
+	grid-row-gap: 50px;
 }
 .carousel-indicators {
 	bottom: 60px;
