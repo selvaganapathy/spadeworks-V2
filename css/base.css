@@ -559,6 +559,19 @@ textarea {
 	width: 100%;
 	height: auto;
 }
+.image-source-1 {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+.image-source-2 {
+	position: absolute;
+	bottom: 20vh;
+	right: 10vw;
+	width: 20%;
+	height: auto;
+	object-fit: contain;
+}
 @media screen and (max-width:1024px) {
 	.row .row {
 		margin-left: -18px;
