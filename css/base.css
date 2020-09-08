@@ -523,11 +523,12 @@ textarea {
 
 .slide-show p{
 	letter-spacing: 1px;
-	font-size: 1.4em;
-	font-weight: 500;
-	color: black;
 	margin: 0px;
 	grid-row-gap: 50px;
+	font-family: "lora-regular", serif;
+	font-size: 2.3rem;
+    line-height: 3rem;
+    color: #6e6e6e;
 }
 .carousel-indicators {
 	bottom: 60px;
@@ -537,9 +538,16 @@ textarea {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.55em;
+	font-family: "lora-regular";
 }
 .carousel-indicators li {
 	background-color: black
+}
+.owl-pagination{
+	text-align: center;
+    width: 100%;
+    margin: .6rem 0 0;
+    margin-bottom: 8rem;
 }
 .title-text{
 	font-size: 1.3em;
@@ -547,6 +555,7 @@ textarea {
 	font-weight: 500;
 	color: red;
 	text-transform: uppercase;
+	margin-top: -2rem;
 }
 .carousel-indicators .active {
     background-color: red;
