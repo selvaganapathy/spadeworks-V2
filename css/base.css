@@ -29,6 +29,16 @@ html {
 body {
 	margin: 0;
 }
+.carousel-indicators li{
+	display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 7px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #0009;
+	border-radius: 12px;
+}
 
 article,
 aside,
@@ -384,6 +394,9 @@ textarea {
 	-o-appearance: none;
 	appearance: none;
 }
+li{
+	font-size: 1.35em;
+}
 
 /** 
  * ===================================================================
@@ -565,22 +578,16 @@ textarea {
 	height: auto;
 }
 .image-logo-ppf{
-	width: 100%;
-	height: auto;
-}
-.image-source-1 {
-	width: 100%;
+	width: 30vw;
 	height: auto;
 	object-fit: contain;
 }
-.image-source-2 {
-	position: absolute;
-	bottom: 20vh;
-	right: 10vw;
-	width: 20%;
+.image-source {
+	width: 18vw;
 	height: auto;
 	object-fit: contain;
 }
+
 @media screen and (max-width:1024px) {
 	.row .row {
 		margin-left: -18px;
