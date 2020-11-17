@@ -582,14 +582,16 @@ li{
 	margin-top: -2rem;
 }
 .carousel-item p, h5{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif !important;
 }
 .carousel-item p{
-	line-height: 1.6;
+	line-height: 2;
+	font-weight: 300 !important;
 }
 ul li {
 	font-size: 20px !important;
-	line-height: 2 !important;
+	line-height: 3 !important;
+	font-weight: 300 !important;
 }
 .carousel-indicators .active {
     background-color: #4db8ff;

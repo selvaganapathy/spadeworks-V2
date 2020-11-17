@@ -1523,7 +1523,7 @@ header .logo a {
 #about-sw {
 	background: #FFFFFF;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-bottom: 5rem;
 }
 #about-sw .section-intro {
 	margin-bottom: 3rem;
@@ -1653,7 +1653,7 @@ header .logo a {
  */
 #sw-services {
 	padding-top: 12rem;
-	padding-bottom: 12rem;
+	padding-bottom: 2rem;
 }
 
 #sw-services .resume-header {
