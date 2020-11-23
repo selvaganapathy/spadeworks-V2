@@ -564,7 +564,7 @@ li{
     color: #6e6e6e;
 }
 .carousel-indicators {
-	bottom: 60px;
+	bottom: 15vh !important;
 }
 .slide-show h5{
 	color: #4db8ff;
