@@ -537,6 +537,7 @@ li{
 .slide-container{
 	height: 70vh;
 	/* margin-top: -10px; */
+	margin-bottom: -5%;
 }
 .slide-show{
 	width: 70%;
