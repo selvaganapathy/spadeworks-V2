@@ -162,6 +162,8 @@ p.lead {
 @media only screen and (max-width:768px) {
 	p.lead {
 		font-size: 1.7rem;
+		text-align: left !important;
+		padding: 0px 10px !important;
 	}
 }
 em, i, strong, b {
@@ -1497,6 +1499,9 @@ header .logo a {
 	}
 }
 @media only screen and (max-width:600px) {
+	.intro-content .button{
+		margin-top: 9rem !important;
+	}
 	#intro {
 		min-height: 600px;
 	}
