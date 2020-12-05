@@ -219,15 +219,30 @@
 			console.log('view of doc')
 			var w = window.innerWidth;
 			console.log('wodathsfbfsfs', w)
-
 			if(w < 1000){
 				console.log('view of doc width',w)
+				$('header').css('min-height', '150px');
+				$('header .row').css('min-height', '150px');
+				$('header .top-bar').css('left', '0px');
+				$('.menu-toggle').css('width', '0px');
+				$('.image-logo').css('width', '70%');
+				$('.intro-content .intro-position').css({
+					'font-size': '3.7rem',
+    				'line-height': '6.4rem'
+				});
+				$('.intro-content .intro-position span::after').css('content', 'none');
+				$('.intro-content .intro-position span::before').css('content', 'none');
+				$('.intro-content .button').css({
+					'height': '10rem !important',
+					'line-height': '9rem !important',
+					'padding': '0 8.5rem 0 8.5rem !important',
+					'font-size': '4.3rem'
+				});
+				$('#headerlogo').css('padding-left', '40%');
+				$('.header-logo').css('width', '150px');
 				$('.image-logo').css('width', '50%');
 				$('.intro-content .button').css('margin-top', '6rem');
 				$('.saffron-cls img').css('width', '100%');
-			}
-			if($(window).width() < 600){
-				console.log('view of widows width', $(window).width())
 			}
 		})
 		$(window).on("scroll", function() {

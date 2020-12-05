@@ -711,32 +711,6 @@ footer{
  * --------------------------------------------------------------- 
  */
 @media screen and (max-width:600px) {
-	.contct{
-		margin-top: 17rem;
-	}
-	.directionview{
-		flex-direction: column;
-	}
-	.directionview div{
-		display: flex;
-		flex-direction: column; 
-		justify-content: space-between; 
-		align-items: center;
-		padding: 15px 0px;
-}
-	ul li {
-		font-size: 1.8rem !important;
-		line-height: 1.8 !important;
-	}
-	.carousel-item p {
-		line-height: 1.8;
-		font-size: 1.8rem;
-	}
-	.row {
-		padding-left: 25px;
-		padding-right: 25px;
-	}
-
 	.row .row {
 		margin-left: -10px;
 		margin-right: -10px;
@@ -771,9 +745,6 @@ footer{
 	margin-left: 15%;
 }
 @media screen and (max-width:550px) {
-	.saffron-cls img {
-		width: 100%;
-	}
 	.email-view{
 		margin-top: 5rem;
 		margin-bottom: 5rem;
@@ -788,28 +759,9 @@ footer{
 	.slide-show h5{
 		font-size: 1.1em;
 	}
-	.slide-show>p{
-		font-size: large;
-	}
-	.slide-show>p>div>p{
-		font-size: 25px;
-	}
-	.title-text{
-		font-size: 1.1em;
-		width: 100% !important;
-	}
-	.image-logo{
-		width: 50%;
-	}
-	.carousel-indicators {
-		bottom: -1.3vh !important;
-	}
 	.slide-align{
 		width: 100%; 
 		margin-left: 0%;
-	}
-	.carousel-inner {
-		height: 100vh;
 	}
 	/* .carousel-inner {
 		margin-top: -4em;

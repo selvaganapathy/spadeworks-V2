@@ -11,7 +11,7 @@
 
    <!-- mobile specific metas
    ================================================== -->
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
  	<!-- CSS
    ================================================== -->
    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   -->
@@ -307,8 +307,26 @@
 			console.log('wodathsfbfsfs', w)
 
 			if(w < 1000){
-				console.log('view of doc width',w)
-				$('.image-logo').css('width', '50%');
+				console.log('view of doc width',w);
+				$('header').css('min-height', '150px');
+				$('header .row').css('min-height', '150px');
+				$('header .top-bar').css('left', '0px');
+				$('.menu-toggle').css('width', '0px');
+				$('.image-logo').css('width', '70%');
+				$('.intro-content .intro-position').css({
+					'font-size': '3.7rem',
+    				'line-height': '6.4rem'
+				});
+				$('.intro-content .intro-position span::after').css('content', 'none');
+				$('.intro-content .intro-position span::before').css('content', 'none');
+				$('.intro-content .button').css({
+					'height': '10rem !important',
+					'line-height': '9rem !important',
+					'padding': '0 8.5rem 0 8.5rem !important',
+					'font-size': '4.3rem'
+				});
+				$('#headerlogo').css('padding-left', '40%');
+				$('.header-logo').css('width', '150px');
 				$('.intro-content .button').css('margin-top', '6rem');
 				$('.carousel-inner').css('height', '100vh');
 				$('.title-text').css({'font-size': '1.1em', 'width': '100% !important'})

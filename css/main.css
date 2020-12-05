@@ -1621,7 +1621,7 @@ header .logo a {
 		margin-left: 0;
 	}
 }
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:768px) {
 	.intro-info img {
 		height: 7.8rem;
 		width: 7.8rem;
@@ -1642,8 +1642,8 @@ header .logo a {
 	.button-section [class*="col-"] .button:first-child {
 		margin-right: 0;
 	}
-}
-@media only screen and (max-width:600px) {
+} */
+/* @media only screen and (max-width:600px) {
 	.intro-info {
 		text-align: center;
 		margin-top: 3rem;
@@ -1658,7 +1658,7 @@ header .logo a {
 		padding-left: 0;
 		text-align: center;
 	}
-}
+} */
 
 /** 
  * ===================================================================
@@ -1794,7 +1794,7 @@ header .logo a {
 		padding-left: 50px;
 	}
 }
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:768px) {
 	#sw-services .timeline-wrap::before {
 		left: 2.4rem;
 	}
@@ -1830,8 +1830,8 @@ header .logo a {
 	#sw-services .timeline-header, #sw-services .timeline-content {
 		padding-left: 7rem;
 	}
-}
-@media only screen and (max-width:480px) {
+} */
+/* @media only screen and (max-width:480px) {
 	#sw-services .resume-header h2 {
 		font-size: 2.2rem;
 	}
@@ -1849,7 +1849,7 @@ header .logo a {
 	#sw-services .timeline-header, #sw-services .timeline-content {
 		padding-left: 5.5rem;
 	}
-}
+} */
 
 
 /** 
