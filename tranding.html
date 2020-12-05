@@ -217,9 +217,12 @@
 	<script>
 		$(document).ready(function(){
 			console.log('view of doc')
-			if($(document).width() < 600){
-				console.log('view of doc width', $(document).width())
-				$('#sw-trading').css('background-color', 'blue')
+			var w = window.innerWidth;
+			console.log('wodathsfbfsfs', w)
+
+			if(w < 600){
+				console.log('view of doc width',w)
+				$('#sw-trading').css('background-color', 'yellow')
 			}
 			if($(window).width() < 600){
 				console.log('view of widows width', $(window).width())
