@@ -302,8 +302,37 @@
 	================================================== -->
 	<script>
 		$(document).ready(function(){
-		$('head').append('<meta name="viewport" content="width=device-width, initial-scale=1">');
-	})
+			console.log('view of doc')
+			var w = window.innerWidth;
+			console.log('wodathsfbfsfs', w)
+
+			if(w < 1000){
+				console.log('view of doc width',w)
+				$('.image-logo').css('width', '50%');
+				$('.intro-content .button').css('margin-top', '6rem');
+				$('.carousel-inner').css('height', '100vh');
+				$('.title-text').css({'font-size': '1.1em', 'width': '100% !important'})
+				$('.slide-show>p').css('font-size', 'large');
+				$('.carousel-item p').css('line-height', '1.8');
+				$('.slide-align').css({'width':'100%', 'margin-left':'0%'});
+				$('.contct').css('margin-top', '17rem');
+				$('.directionview').css('flex-direction', 'column');
+				$('.directionview div').css({
+					'display':'flex',
+					'flex-direction':'column',
+					'justify-content':'space-between',
+					'align-items':'center',
+					'padding': '15px 0px',
+				});
+				$('ul li').css({
+					'font-size': '1.8rem !important',
+					'line-height': '1.8 !important'
+				});
+				$('.carousel-indicators').css('bottom', '-1.3vh !important');
+				$('.row').css('padding', '0px');
+				$('.section-intro').css('max-width',  '650px');
+			}
+		})
 		$(window).on("scroll", function() {
 		if($(window).scrollTop() > 1100) {
 			$("header").addClass("headeractive");
