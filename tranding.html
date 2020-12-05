@@ -216,8 +216,13 @@
 
 	<script>
 		$(document).ready(function(){
+			console.log('view of doc')
 			if($(document).width() < 600){
+				console.log('view of doc width', $(document).width())
 				$('#sw-trading').css('background-color', 'blue')
+			}
+			if($(window).width() < 600){
+				console.log('view of widows width', $(window).width())
 			}
 		})
 		$(window).on("scroll", function() {
