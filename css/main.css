@@ -1621,11 +1621,11 @@ header .logo a {
 		margin-left: 0;
 	}
 }
-/* @media only screen and (max-width:768px) {
-	.intro-info img {
+@media only screen and (max-width:1000px) {
+	/* .intro-info img {
 		height: 7.8rem;
 		width: 7.8rem;
-	}
+	} */
 	.intro-info .lead {
 		padding-left: 11rem;
 	}
@@ -1642,15 +1642,24 @@ header .logo a {
 	.button-section [class*="col-"] .button:first-child {
 		margin-right: 0;
 	}
-} */
-/* @media only screen and (max-width:600px) {
+}
+@media only screen and (max-width:1000px) {
+	.intro-content .intro-position span:first-child::before{
+		content: none;
+	}
+	.intro-content .intro-position span::before{
+		content: none;
+	}
+	.intro-content .intro-position span::after{
+		content: none;
+	}
 	.intro-info {
 		text-align: center;
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 22rem;
+		width: 22rem;
 		float: none;
 		display: inline-block;
 	}
@@ -1658,7 +1667,141 @@ header .logo a {
 		padding-left: 0;
 		text-align: center;
 	}
-} */
+	.intro-content .button{
+		margin-top: 15rem !important;
+		height: 16rem !important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.section-intro{
+		max-width: 1000px !important;
+		width: 100% !important;
+		/* height: 200px; */
+	}
+	.title-text{
+		font-size: 3em !important;
+	}
+	.carousel-item p{
+		font-size: 2.8em !important;
+	}
+	ul li {
+		font-size: 3.3em !important;
+		line-height: 1.5 !important;
+	}
+	.slide-show{
+		width: 90%;
+	}
+	.contct{
+		margin-top: 30rem;
+	}
+	.contact-info{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.section-intro h5{
+		font-size: 3em !important;
+	}
+	.contact-info h5{
+		font-size: 2.5em !important;
+	}
+	.col-four, .col-1-3{
+		width: 100%;
+	}
+	.contact-info p{
+		font-size: 2.5em;
+		line-height: 1.5;
+	}
+	.contact-info img{
+		height: 80px;
+		width: 80px;
+	}
+	#go-top a{
+		width: 8rem !important;
+		height: 8rem !important;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon{
+		width: 40px;
+		height: 40px;
+	}
+	#about-sw{
+		padding-top: 2rem;
+		height: 160vh;
+	}
+	.lead {
+		font-size: 3em !important;
+		text-align: left !important;
+	}
+	.section-intro .col-twelve a{
+		font-size: 2.5em;
+		height: 3.5em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#sw-services .resume-timeline{
+		width: 100%;
+		/* background-color: blueviolet; */
+	}
+	#sw-services .timeline-header h3{
+		width: 100% !important;
+		padding-right: 0px !important;
+		font-size: 3em !important;
+	}
+	.timeline-block{
+		display: flex !important;
+		flex-direction: column !important;
+	}
+	.timeline-content p, li{
+		font-size: 3em;
+		line-height: 1.8;
+
+	}
+	#sw-portfolio-instagram .timeline-header{
+		width: 100% !important;
+	}
+	#sw-portfolio-instagram .timeline-content p{
+		margin-top: 0em !important;
+	}
+	#sw-clients {
+		height: auto;
+	}
+	.services-content{
+		height: auto;
+		/* background: antiquewhite; */
+		width: 100%;
+	}
+	/* .owl-wrapper-outer .owl-item{
+		width: 100vw !important;
+		height: 55vh;
+	} */
+	.owl-wrapper-outer .owl-item img{
+		height: 300px !important;
+		width: 300px !important;
+	}
+	.services-list .icon{
+		font-size: 2em;
+	}
+	.owl-theme .owl-controls .owl-page span{
+		width: 3.2rem !important;
+		height: 3.2rem !important;
+	}
+	#headerlogo{
+		padding-left: 0px;
+	}
+	.menu-toggle span{
+		width: 64px;
+		height: 30px;
+	}
+	.main-navigation{
+		width: 350px;
+	}
+	.main-navigation li a{
+		font-size: 23px;
+	}
+}
 
 /** 
  * ===================================================================
@@ -1734,7 +1877,7 @@ header .logo a {
 } */
 
 #sw-portfolio-instagram .timeline-header{
-	width: 24% !important;
+	width: 24% ;
 }
 #sw-services .timeline-header {
 	float: left;

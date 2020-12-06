@@ -744,7 +744,7 @@ footer{
 	width: 75%; 
 	margin-left: 15%;
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:1000px) {
 	.email-view{
 		margin-top: 5rem;
 		margin-bottom: 5rem;
@@ -766,6 +766,21 @@ footer{
 	/* .carousel-inner {
 		margin-top: -4em;
 	} */
+	.carousel-indicators{
+		bottom: 2vh !important;
+	}
+	.image-logo{
+		width: 50%;
+		margin-top: 35%;
+	}
+	.saffron-cls img{
+		width: 100%;
+	}
+	.carousel-indicators li{
+		width: 35px;
+		height: 35px;
+		border-radius: 17px;
+	}
 
 }
 /**
