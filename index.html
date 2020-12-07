@@ -27,6 +27,7 @@
    <!-- favicons
 	================================================== -->
 	<link rel="icon" type="image/png" href="favicon.png">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
 </head>
 
@@ -491,49 +492,49 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 	<script>
-		// $(document).ready(function(){
-		// 	console.log('view of doc')
-		// 	var w = window.innerWidth;
-		// 	console.log('wodathsfbfsfs', w)
+		$(document).ready(function(){
+			console.log('view of doc')
+			var w = window.innerWidth;
+			console.log('wodathsfbfsfs', w)
 
-		// 	if(w < 1000){
-		// 		console.log('view of doc width',w)
-		// 		$('header').css('min-height', '150px');
-		// 		$('header .row').css('min-height', '150px');
-		// 		$('header .top-bar').css('left', '0px');
-		// 		$('.menu-toggle').css('width', '0px');
-		// 		$('.image-logo').css('width', '70%');
-		// 		$('.intro-content .intro-position').css({
-		// 			'font-size': '3.7rem',
-    	// 			'line-height': '6.4rem'
-		// 		});
-		// 		$('.intro-content .intro-position span::after').css('content', 'none');
-		// 		$('.intro-content .intro-position span::before').css('content', 'none');
-		// 		$('.intro-content .button').css({
-		// 			'height': '10rem !important',
-		// 			'line-height': '9rem !important',
-		// 			'padding': '0 8.5rem 0 8.5rem !important',
-		// 			'font-size': '4.3rem'
-		// 		});
-		// 		$('#headerlogo').css('padding-left', '0%');
-		// 		$('.header-logo').css('width', '150px');
-		// 		$('.image-logo').css('width', '50%');
-		// 		$('.intro-content .button').css('margin-top', '6rem');
-		// 		$('p.lead').css({
-		// 			'font-size': '1.7rem',
-		// 			'text-align': 'left !important',
-		// 			'padding': ' 0px 10px !important'
-		// 		});
-		// 		$('#sw-services').css('padding', '0px');
-		// 		$('.section-intro').css('max-width', '650px');
-		// 		$('#sw-services .timeline-block').css('display', 'inline');
-		// 		$('#sw-services .timeline-wrap::before, #sw-services .timeline-ico').css('display', 'none');
-		// 		$('.timeline-header').css('padding', '1px 3px !important');
-		// 		$('.timeline-content').css('padding', '1px 7px !important');
-		// 	}
-		// })
+			if(w < 1000){
+				console.log('view of doc width',w)
+				$('header').css('min-height', '150px');
+				$('header .row').css('min-height', '150px');
+				$('header .top-bar').css('left', '0px');
+				$('.menu-toggle').css('width', '0px');
+				$('.image-logo').css('width', '70%');
+				$('.intro-content .intro-position').css({
+					'font-size': '3.7rem',
+    				'line-height': '6.4rem'
+				});
+				$('.intro-content .intro-position span::after').css('content', 'none');
+				$('.intro-content .intro-position span::before').css('content', 'none');
+				$('.intro-content .button').css({
+					'height': '10rem !important',
+					'line-height': '9rem !important',
+					'padding': '0 8.5rem 0 8.5rem !important',
+					'font-size': '4.3rem'
+				});
+				$('#headerlogo').css('padding-left', '0%');
+				$('.header-logo').css('width', '150px');
+				$('.image-logo').css('width', '50%');
+				$('.intro-content .button').css('margin-top', '6rem');
+				$('p.lead').css({
+					'font-size': '1.7rem',
+					'text-align': 'left !important',
+					'padding': ' 0px 10px !important'
+				});
+				$('#sw-services').css('padding', '0px');
+				$('.section-intro').css('max-width', '650px');
+				$('#sw-services .timeline-block').css('display', 'inline');
+				$('#sw-services .timeline-wrap::before, #sw-services .timeline-ico').css('display', 'none');
+				$('.timeline-header').css('padding', '1px 3px !important');
+				$('.timeline-content').css('padding', '1px 7px !important');
+			}
+		})
 		$(window).on("scroll", function() {
-			if($(window).scrollTop() > 750) {
+			if($(window).scrollTop() > 750 && window.innerWidth>1000) {
 				$("header").addClass("headeractive");
 				$('#headerlogo').show();
 			} else {

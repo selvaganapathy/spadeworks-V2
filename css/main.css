@@ -71,7 +71,7 @@ html, body {
 }
 body {
 	background: #151515;
-	font-family: "lora-regular", serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
 	color: #6e6e6e;
@@ -102,7 +102,7 @@ a:hover, a:focus, a:active {
  * ------------------------------------------------------------------- 
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "poppins-semibold", sans-serif;
+	font-family: "Playfair Display", serif;
 	color: #313131;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -112,7 +112,7 @@ h3, .h03, h4, .h04 {
 	margin-bottom: 1.8rem;
 }
 h5, .h05, h6, .h06 {
-	font-family: "poppins-bold";
+	font-family: "Playfair Display";
 	margin-bottom: 1.2rem;
 }
 h1, .h01 {
@@ -154,7 +154,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "lora-regular", serif;
+	font-family: "Playfair Display", serif;
 	font-size: 2rem;
 	line-height: 1.8;
 	color: #888888;
@@ -173,10 +173,10 @@ em, i, strong, b {
 	font-weight: normal;
 }
 em, i {
-	font-family: "lora-italic", serif;
+	font-family: "Playfair Display", serif;
 }
 strong, b {
-	font-family: "lora-bold", serif;
+	font-family: "Playfair Display", serif;
 }
 small {
 	font-size: 1.2rem;
@@ -193,13 +193,13 @@ blockquote:before {
 	line-height: 0px;
 	margin: 0;
 	color: #313131;
-	font-family: arial, sans-serif;
+	font-family: 'Playfair Display', serif;
 	position: absolute;
 	top: 3rem;
 	left: 0;
 }
 blockquote p {
-	font-family: georgia, serif;
+	font-family: 'Playfair Display', serif;
 	font-style: italic;
 	padding: 0;
 	font-size: 1.9rem;
@@ -219,14 +219,14 @@ blockquote cite a, blockquote cite a:visited {
 	border: none;
 }
 abbr {
-	font-family: "poppins-bold", serif;
+	font-family: "Playfair Display", serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
 	color: #888888;
 }
 var, kbd, samp, code, pre {
-	font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+	font-family: "Playfair Display", serif;
 }
 pre {
 	padding: 2.4rem 3rem 3rem;
@@ -328,7 +328,7 @@ table {
 	border-width: 0;
 	width: 100%;
 	max-width: 100%;
-	font-family: "lora-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 }
 th, td {
 	padding: 1.5rem 3rem;
@@ -337,7 +337,7 @@ th, td {
 }
 th {
 	color: #313131;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 }
 td {
 	line-height: 1.5;
@@ -533,7 +533,7 @@ select {
 	outline: none;
 	vertical-align: middle;
 	color: #313131;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.5rem;
 	line-height: 3rem;
 	max-width: 100%;
@@ -570,7 +570,7 @@ select {
 }
 .ss-custom-select::after {
 	content: '\f0d7';
-	font-family: 'FontAwesome';
+	font-family: 'Playfair Display';
 	position: absolute;
 	top: 50%;
 	right: 1.5rem;
@@ -605,7 +605,7 @@ select:focus {
 	border-bottom: 1px solid #FF0077;
 }
 label, legend {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.4rem;
 	margin-bottom: .6rem;
 	color: #3b3b3b;
@@ -617,7 +617,7 @@ input[type="checkbox"], input[type="radio"] {
 label > .label-text {
 	display: inline-block;
 	margin-left: 1rem;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 	line-height: inherit;
 }
 label > input[type="checkbox"], label > input[type="radio"] {
@@ -659,7 +659,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	display: inline-block;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
@@ -784,7 +784,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 	margin-bottom: 3rem;
 	border-radius: 3px;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.5rem;
 }
 .alert-box .close {
@@ -823,7 +823,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin: 0;
 	padding: 1.5rem .6rem 0 0;
 	font-size: 8.4rem;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	line-height: 6rem;
 	text-indent: 0;
 	background: transparent;
@@ -892,7 +892,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	height: 1em;
 	position: absolute;
 	font-size: 8rem;
-	font-family: Arial, Sans-Serif;
+	font-family: 'Playfair Display', serif;
 	color: #333;
 }
 .pull-quote:before {
@@ -943,7 +943,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .stats-tabs li a {
 	display: inline-block;
 	font-size: 2.5rem;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	border: none;
 	color: #252525;
 }
@@ -955,7 +955,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	display: block;
 	margin: .6rem 0 0 0;
 	font-size: 1.4rem;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 	color: #888888;
 }
 
@@ -979,7 +979,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: absolute;
 	left: 0;
 	top: -3rem;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -996,7 +996,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	right: 0;
 	top: -3.6rem;
 	display: block;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 	color: white;
 	font-size: 1.1rem;
 	line-height: 1;
@@ -1058,7 +1058,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 }
 .section-intro h1 {
-	font-family: "poppins-semibold", serif;
+	font-family: "Playfair Display", serif;
 	font-size: 3.6rem;
 	color: #313131;
 	line-height: 1.25;
@@ -1254,7 +1254,7 @@ header .logo a {
 #main-nav-wrap {
 	display: block;
 	width: 100%;
-	font-family: "poppins-medium", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.5rem;
 	position: absolute;
 	top: 100%;
@@ -1365,7 +1365,7 @@ header .logo a {
 }
 .intro-content h1 {
 	color: #FFFFFF;
-	font-family: "poppins-medium", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
 	max-width: 900px;
@@ -1377,7 +1377,7 @@ header .logo a {
 }
 .intro-content h5 {
 	color: #cc005f;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
 	margin-bottom: 0;
@@ -1389,7 +1389,7 @@ header .logo a {
 	margin-bottom: 0px !important;
 }
 .intro-content .intro-position {
-	font-family: "lora-regular", serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
@@ -1432,7 +1432,7 @@ header .logo a {
 .intro-content .button::after {
 	display: inline-block;
 	/*content: "\f107";*/
-	font-family: fontAwesome;
+	font-family: 'Playfair Display', serif;
 	font-size: 1.6rem;
 	line-height: inherit;
 	text-align: center;
@@ -1460,6 +1460,9 @@ header .logo a {
 }
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #cc005f;
+}
+.slide-show{
+	scroll-behavior: smooth;
 }
 
 /**
@@ -1568,7 +1571,7 @@ header .logo a {
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
@@ -1582,7 +1585,7 @@ header .logo a {
 	margin-bottom: .6rem;
 }
 .about-content .info-list li strong {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	color: #313131;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -1591,7 +1594,7 @@ header .logo a {
 }
 .about-content .info-list li span {
 	display: block;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 	color: #888888;
 	font-size: 1.5rem;
 	line-height: 1;
@@ -1644,6 +1647,9 @@ header .logo a {
 	}
 }
 @media only screen and (max-width:1000px) {
+	.carousel-control-next, .carousel-control-prev{
+		width: 8% !important;
+	}
 	.intro-content .intro-position span:first-child::before{
 		content: none;
 	}
@@ -1687,7 +1693,7 @@ header .logo a {
 	}
 	ul li {
 		font-size: 3.3em !important;
-		line-height: 1.5 !important;
+		line-height: 1.8 !important;
 	}
 	.slide-show{
 		width: 90%;
@@ -1723,12 +1729,12 @@ header .logo a {
 		height: 8rem !important;
 	}
 	.carousel-control-next-icon, .carousel-control-prev-icon{
-		width: 40px;
-		height: 40px;
+		width: 55px;
+		height: 55px;
 	}
 	#about-sw{
 		padding-top: 2rem;
-		height: 160vh;
+		height: auto;
 	}
 	.lead {
 		font-size: 3em !important;
@@ -1793,13 +1799,25 @@ header .logo a {
 	}
 	.menu-toggle span{
 		width: 64px;
-		height: 30px;
+		height: 3px;
+	}
+	.menu-toggle span::before{
+		top: -18px;
+	}
+	.menu-toggle span::after{
+		bottom: -18px;
 	}
 	.main-navigation{
 		width: 350px;
 	}
 	.main-navigation li a{
 		font-size: 23px;
+	}
+	header .top-bar{
+		padding-top: 40px;
+	}
+	.sw-fea.stroke{
+		font-size: 28px;
 	}
 }
 
@@ -1895,7 +1913,7 @@ header .logo a {
 	padding-right: 125px;
 }
 #sw-services .timeline-header p {
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.6rem;
 	color: #888888;
 }
@@ -2062,7 +2080,7 @@ header .logo a {
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.2rem;
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.6);
@@ -2120,19 +2138,19 @@ header .logo a {
 	padding: 1.8rem 3.6rem 3rem;
 }
 .popup-modal .description-box h4 {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 	margin-bottom: .6rem;
 }
 .popup-modal .description-box p {
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.4rem;
 	line-height: 2.4rem;
 	margin-bottom: 12px;
 }
 .popup-modal .categories {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.1rem;
 	line-height: 1.8rem;
 	text-transform: uppercase;
@@ -2147,7 +2165,7 @@ header .logo a {
 	background: #000000;
 }
 .popup-modal .link-box a {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.2rem;
 	line-height: 6rem;
 	color: #FFFFFF;
@@ -2460,7 +2478,7 @@ header .logo a {
 	font-size: 3.6rem;
 	margin-top: 1.2rem;
 	margin-bottom: 0;
-	font-family: "poppins-medium", sans-serif;
+	font-family: "Playfair Display", serif;
 	color: white;
 }
 #stats .stat-title {
@@ -2555,7 +2573,7 @@ header .logo a {
 	clear: both;
 }
 #contact-sw form .form-field label {
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.1rem;
 	line-height: 2.4rem;
 	position: absolute;
@@ -2652,7 +2670,7 @@ header .logo a {
 }
 #submit-loader .text-loader {
 	display: none;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "Playfair Display", serif;
 	color: #FFFFFF;
 	letter-spacing: .3rem;
 	text-transform: uppercase;
@@ -2665,7 +2683,7 @@ header .logo a {
 }
 .contact-info {
 	margin: 4.8rem auto 0;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 	font-size: 1.5rem;
 	text-align: center;
 }
@@ -2755,7 +2773,7 @@ header .logo a {
 footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
-	font-family: "poppins-regular", sans-serif;
+	font-family: "Playfair Display", serif;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
