@@ -224,56 +224,56 @@
    <!-- favicons
 	================================================== -->
 	<script>
-		$(document).ready(function(){
-			console.log('view of doc')
-			var w = window.innerWidth;
-			console.log('wodathsfbfsfs', w)
+		// $(document).ready(function(){
+		// 	console.log('view of doc')
+		// 	var w = window.innerWidth;
+		// 	console.log('wodathsfbfsfs', w)
 
-			if(w < 1000){
-				console.log('view of doc width',w);
-				$('header').css('min-height', '150px');
-				$('header .row').css('min-height', '150px');
-				$('header .top-bar').css('left', '0px');
-				$('.menu-toggle').css('width', '0px');
-				$('.image-logo').css('width', '70%');
-				$('.intro-content .intro-position').css({
-					'font-size': '3.7rem',
-    				'line-height': '6.4rem'
-				});
-				$('.intro-content .intro-position span::after').css('content', '');
-				$('.intro-content .intro-position span::before').css('content', '');
-				$('.intro-content .button').css({
-					'height': '10rem !important',
-					'line-height': '9rem !important',
-					'padding': '0 8.5rem 0 8.5rem !important',
-					'font-size': '4.3rem'
-				});
-				$('#headerlogo').css('padding-left', '35% !important');
-				$('.header-logo').css('width', '150px');
-				$('.intro-content .button').css('margin-top', '6rem');
-				$('.carousel-inner').css('height', '100vh');
-				$('.title-text').css({'font-size': '1.1em', 'width': '100% !important'})
-				$('.slide-show>p').css('font-size', 'large');
-				$('.carousel-item p').css('line-height', '1.8');
-				$('.slide-align').css({'width':'100%', 'margin-left':'0%'});
-				$('.contct').css('margin-top', '17rem');
-				$('.directionview').css('flex-direction', 'column');
-				$('.directionview div').css({
-					'display':'flex',
-					'flex-direction':'column',
-					'justify-content':'space-between',
-					'align-items':'center',
-					'padding': '15px 0px',
-				});
-				$('ul li').css({
-					'font-size': '1.8rem !important',
-					'line-height': '1.8 !important'
-				});
-				$('.carousel-indicators').css('bottom', '-1.3vh !important');
-				$('.row').css('padding', '0px');
-				$('.section-intro').css('max-width',  '650px');
-			}
-		})
+		// 	if(w < 1000){
+		// 		console.log('view of doc width',w);
+		// 		$('header').css('min-height', '150px');
+		// 		$('header .row').css('min-height', '150px');
+		// 		$('header .top-bar').css('left', '0px');
+		// 		$('.menu-toggle').css('width', '0px');
+		// 		$('.image-logo').css('width', '70%');
+		// 		$('.intro-content .intro-position').css({
+		// 			'font-size': '3.7rem',
+    	// 			'line-height': '6.4rem'
+		// 		});
+		// 		$('.intro-content .intro-position span::after').css('content', '');
+		// 		$('.intro-content .intro-position span::before').css('content', '');
+		// 		$('.intro-content .button').css({
+		// 			'height': '10rem !important',
+		// 			'line-height': '9rem !important',
+		// 			'padding': '0 8.5rem 0 8.5rem !important',
+		// 			'font-size': '4.3rem'
+		// 		});
+		// 		$('#headerlogo').css('padding-left', '35% !important');
+		// 		$('.header-logo').css('width', '150px');
+		// 		$('.intro-content .button').css('margin-top', '6rem');
+		// 		$('.carousel-inner').css('height', '100vh');
+		// 		$('.title-text').css({'font-size': '1.1em', 'width': '100% !important'})
+		// 		$('.slide-show>p').css('font-size', 'large');
+		// 		$('.carousel-item p').css('line-height', '1.8');
+		// 		$('.slide-align').css({'width':'100%', 'margin-left':'0%'});
+		// 		$('.contct').css('margin-top', '17rem');
+		// 		$('.directionview').css('flex-direction', 'column');
+		// 		$('.directionview div').css({
+		// 			'display':'flex',
+		// 			'flex-direction':'column',
+		// 			'justify-content':'space-between',
+		// 			'align-items':'center',
+		// 			'padding': '15px 0px',
+		// 		});
+		// 		$('ul li').css({
+		// 			'font-size': '1.8rem !important',
+		// 			'line-height': '1.8 !important'
+		// 		});
+		// 		$('.carousel-indicators').css('bottom', '-1.3vh !important');
+		// 		$('.row').css('padding', '0px');
+		// 		$('.section-intro').css('max-width',  '650px');
+		// 	}
+		// })
 		$(window).on("scroll", function() {
 		if($(window).scrollTop() > 1100) {
 			$("header").addClass("headeractive");
