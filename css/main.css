@@ -1830,10 +1830,10 @@ header .logo a {
 	#sw-services .timeline-wrap::before{
 		display: none !important;
 	}
-	textarea{
+	/* textarea{
 		min-height: 0px !important; 
-	}
-	.floating-wpp .floating-wpp-popup.active{
+	} */
+	/* .floating-wpp .floating-wpp-popup.active{
 		width: 700px !important;
 		height: 900px !important;
 	}
@@ -1852,7 +1852,7 @@ header .logo a {
 	.floating-wpp .floating-wpp-popup.active .floating-wpp-message{
 		font-size: 30px !important;
 		padding: 20px !important;
-	}
+	} */
 	
 }
 
