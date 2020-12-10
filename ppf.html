@@ -95,7 +95,7 @@
    		</div>   		 		
    	</div> <!-- /intro-content --> 
 	   </section> <!-- /intro -->
-	   <div id="WAButton"></div>
+	   <!-- <div id="WAButton"></div> -->
 	<div id="sw-ppe" style="height: 130px; background-color: #1b1b1b; opacity: .85;">
 	</div>
 	<section id="sw-ppe" style="background-color: white">
@@ -308,7 +308,8 @@
 	<!--Floating WhatsApp css-->
 	<!--Floating WhatsApp javascript-->
 	<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
-	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="jquery.touchslider.min.js"></script>
    <!-- favicons
 	================================================== -->
 	<script>
@@ -361,6 +362,7 @@
 				$('.row').css('padding', '0px');
 				$('.section-intro').css('max-width',  '650px');
 			}
+
 		})
 		$(window).on("scroll", function() {
 			if($(window).scrollTop() > 1500) {
@@ -371,13 +373,9 @@
 				$('#headerlogo').hide();
 			}
 		});
-		// $('.carousel-inner').flickity({
-		// 	// options
-		// 	// cellAlign: 'left',
-		// 	// contain: true
-		// });
+	
 	</script>
-	<script type="text/javascript">  
+	<!-- <script type="text/javascript">  
 		$(function () {
 					$('#WAButton').floatingWhatsApp({
 					phone: '+919840800746', //WhatsApp Business phone number
@@ -388,6 +386,6 @@
 					position: "right" //Position: left | right
 				});
 			});
-	 </script> 
+	 </script>  -->
 
 </html>
