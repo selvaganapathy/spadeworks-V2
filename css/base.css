@@ -744,9 +744,16 @@ footer{
 	width: 75%; 
 	margin-left: 15%;
 }
+.display-content{
+	display: contents;
+}
 @media screen and (max-width:1000px) {
+	.directionview{
+		flex-direction: row !important;
+		padding: 0px 25px !important;
+	}
 	.image-source{
-		width: 29vw !important;
+		width: 45vw !important;
 	}
 	.email-view{
 		margin-top: 5rem;
@@ -784,6 +791,9 @@ footer{
 		height: 35px;
 		border-radius: 17px;
 		margin: 10px !important;
+	}
+	.margine{
+		margin-top: 3.5em !important;
 	}
 	/* .fake-mobile{
 		height: 85px;

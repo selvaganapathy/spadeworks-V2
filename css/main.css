@@ -1730,8 +1730,9 @@ header .logo a {
 	}
 	.carousel-control-next-icon, .carousel-control-prev-icon{
 		/* display: none; */
-		width: 40px !important;
+		width: 80px !important;
 		height: 40px !important;
+		background-color: gray !important;
 	}
 	.carousel-control-next, .carousel-control-prev{
 		top: unset !important;
