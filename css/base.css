@@ -747,7 +747,49 @@ footer{
 .display-content{
 	display: contents;
 }
+#desktop_view{
+	display: flex;
+}
+#mobile_view{
+	display: none;
+}
+.margine{
+	width: 100px !important;
+}
+.services-fake{
+	display: none;
+}
 @media screen and (max-width:1000px) {
+	[class*="col-"] {
+		padding: 0px 5px;
+	}
+	#sw-ppe, #sw-trading{
+		padding: 5em 0px !important;
+	}
+	#sw-service{
+		height: 8em; 
+		background-color: white; 
+		margin-top: -5px;
+	}
+	#desktop_view{
+		display: none;
+	}
+	#mobile_view{
+		display: inline;
+		width: 100vw !important;
+	}
+	.about-fake{
+		height: 12em;
+		background: black; 
+		margin-top: -2px;
+		margin-bottom: -2px;
+	}
+	.client-fake{
+		height: 8em; 
+		background-color: white; 
+		margin-top: -2px; 
+		margin-bottom: -5px;
+	}
 	.directionview{
 		flex-direction: row !important;
 		padding: 0px 25px !important;
@@ -777,7 +819,10 @@ footer{
 		margin-top: -4em;
 	} */
 	.carousel-indicators{
-		bottom: 2vh !important;
+		bottom: 5vh !important;
+	}
+	.saffron-cls {
+		padding-bottom: 5em;
 	}
 	.image-logo{
 		width: 50%;
@@ -793,6 +838,7 @@ footer{
 		margin: 10px !important;
 	}
 	.margine{
+		width: 150px !important;
 		margin-top: 3.5em !important;
 	}
 	/* .fake-mobile{
