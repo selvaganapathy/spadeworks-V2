@@ -1673,7 +1673,8 @@ header .logo a {
 		display: inline-block;
 	}
 	.intro-info .lead {
-		padding-left: 0;
+		padding-left: 50px;
+		padding-right: 10px;
 		text-align: center;
 	}
 	.intro-content .button{
@@ -1820,7 +1821,8 @@ header .logo a {
 		width: 350px;
 	}
 	.main-navigation li a{
-		font-size: 23px;
+		font-size: xx-large;
+		line-height: 1.5;
 	}
 	header .top-bar{
 		padding-top: 40px;

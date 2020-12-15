@@ -760,8 +760,8 @@ footer{
 	display: none;
 }
 @media screen and (max-width:1000px) {
-	[class*="col-"] {
-		padding: 0px 5px;
+	.header-button{
+		padding: 0px 50px;
 	}
 	#sw-ppe, #sw-trading{
 		padding: 5em 0px !important;
@@ -819,7 +819,11 @@ footer{
 		margin-top: -4em;
 	} */
 	.carousel-indicators{
-		bottom: 5vh !important;
+		bottom: 6.5vh !important;
+	}
+	.insta-pics{
+		padding-left: 30px;
+		width: 100px;
 	}
 	.saffron-cls {
 		padding-bottom: 5em;
