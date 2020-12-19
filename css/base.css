@@ -760,6 +760,11 @@ footer{
 	display: none;
 }
 @media screen and (max-width:1000px) {
+	.slide-container {
+		height: 90vh;
+		margin-bottom: -5%;
+		margin-top: -5%;
+	}
 	.header-button{
 		padding: 0px 50px;
 	}
