@@ -40,7 +40,7 @@
    ================================================== -->
    	<header>   	
    	<div class="row">
-		<div id="headerlogo" style="display: none; width: 100%; padding-left: 40%;">
+		<div id="headerlogo" style="display: none; width: 100%; align-items: center;justify-content: center;">
 			<a href="index.html"><img src="images/sw-logo2.png" class="header-logo"></a>
 		</div>
    		<div class="top-bar">
@@ -370,9 +370,9 @@
 
 		})
 		$(window).on("scroll", function() {
-			if($(window).scrollTop() > 1500) {
+			if($(window).scrollTop() > 600) {
 				$("header").addClass("headeractive");
-				$('#headerlogo').show();
+				$('#headerlogo').css('display', 'flex');
 			} else {
 				$("header").removeClass("headeractive");
 				$('#headerlogo').hide();

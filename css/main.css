@@ -1956,8 +1956,8 @@ header .logo a {
 } */
 #sw-services .timeline-header h3 {
 	margin: 0;
-	width: 265px;
-	padding-right: 125px;
+	width: 19vw;
+	padding-right: 10vw;
 }
 #sw-services .timeline-header p {
 	font-family: "Playfair Display", serif;

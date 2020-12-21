@@ -548,7 +548,7 @@ li{
 .slide-container{
 	height: 70vh;
 	/* margin-top: -10px; */
-	margin-bottom: -5%;
+	/* margin-bottom: -5%; */
 }
 .slide-show{
 	width: 70%;
@@ -576,7 +576,7 @@ li{
     color: #6e6e6e;
 }
 .carousel-indicators {
-	bottom: 15vh !important;
+	bottom: 0vh !important;
 }
 .slide-show h5{
 	color: #4db8ff;
@@ -601,7 +601,7 @@ li{
 	color: red;
 	font-family: 'Playfair Display', serif;
 	text-transform: uppercase;
-	/* margin-top: -2rem; */
+	margin-top: 1em;
 }
 .carousel-item p, h5{
 	font-family: 'Playfair Display', serif !important;
@@ -759,6 +759,14 @@ footer{
 .services-fake{
 	display: none;
 }
+#sw-ppe{
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+#sw-trading{
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
 @media screen and (max-width:1000px) {
 	.slide-container {
 		height: 90vh;
@@ -806,10 +814,10 @@ footer{
 		margin-top: 5rem;
 		margin-bottom: 5rem;
 	}
-	.slide-containe{
+	/* .slide-containe{
 		height: 500px;
 		margin-top: -80px;
-	}
+	} */
 	.slide-show{
 		width: 90%;
 	}
